@@ -1,4 +1,4 @@
-package com.psych.game.repositories;
+package com.psych.game.repository;
 
 import com.psych.game.model.Admin;
 import org.springframework.data.jpa.repository.JpaRepository;

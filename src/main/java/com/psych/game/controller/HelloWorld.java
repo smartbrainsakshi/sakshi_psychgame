@@ -1,5 +1,6 @@
-package com.psych.game;
+package com.psych.game.controller;
 
+import com.psych.game.EllenAnswerRepository;
 import com.psych.game.model.*;
 import com.psych.game.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;

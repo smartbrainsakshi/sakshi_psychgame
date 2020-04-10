@@ -1,4 +1,4 @@
-package com.example.psych.exceptions;
+package com.psych.game.exceptions;
 
 public class NoSuchUserException extends Exception {
     public NoSuchUserException(String message) {

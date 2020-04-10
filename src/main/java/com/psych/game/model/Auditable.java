@@ -1,6 +1,5 @@
-package com.example.psych.model;
+package com.psych.game.model;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerator;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,8 +14,8 @@ import java.util.Date;
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 @JsonIdentityInfo(
-    generator = ObjectIdGenerators.StringIdGenerator.class,
-    property = "id"
+        generator = ObjectIdGenerators.StringIdGenerator.class,
+        property = "id"
 )
 public abstract class Auditable implements Serializable {
     @Id
@@ -42,10 +41,5 @@ public abstract class Auditable implements Serializable {
     @Setter
     private Date updatedAt = new Date();
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj instanceof Auditable)
-            return ((Auditable) obj).getId().equals(getId());
-        return super.equals(obj);
-    }
+
 }

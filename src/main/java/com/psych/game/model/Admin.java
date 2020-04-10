@@ -1,6 +1,5 @@
-package com.example.psych.model;
+package com.psych.game.model;
 import javax.persistence.Entity;
-import javax.persistence.Table;
 
 @Entity
 //@Table(name = "admins")

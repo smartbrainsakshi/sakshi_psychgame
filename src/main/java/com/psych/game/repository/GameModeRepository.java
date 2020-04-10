@@ -1,7 +1,7 @@
-package com.example.psych.repository;
+package com.psych.game.repository;
 
 
-import com.example.psych.model.GameMode;
+import com.psych.game.model.GameMode;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

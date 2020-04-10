@@ -1,4 +1,4 @@
-package com.example.psych.model;
+package com.psych.game.model;
 import lombok.Getter;
 import lombok.Setter;
 
