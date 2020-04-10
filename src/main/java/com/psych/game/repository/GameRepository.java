@@ -1,0 +1,7 @@
+package com.example.psych.repository;
+
+import com.example.psych.model.Game;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GameRepository extends JpaRepository<Game, Long> {
+}
